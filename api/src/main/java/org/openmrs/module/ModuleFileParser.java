@@ -206,7 +206,7 @@ public class ModuleFileParser {
 					catch (Exception e3) {}
 				}
 				
-				log.error("config.xml content: " + output);
+				log.error("Error in the entries of config.xml  ");
 				throw new ModuleException(
 				        Context.getMessageSourceService().getMessage("Module.error.cannotParseConfigFile"), moduleFile
 				                .getName(), e);
